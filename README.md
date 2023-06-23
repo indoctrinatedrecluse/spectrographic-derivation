@@ -58,3 +58,10 @@ Thus, if you have the source image at `./source.png` and you want to generate a 
 or if you are using the stand-alone script:
 
 `python spectrographic.py --image ./source.png --min_freq 10000 --max_freq 20000 --duration 10 --save sound.wav --play`
+
+After the sound file is made (stored as sound.wav on root by default), run
+
+`python player.py`
+
+to generate the spectrogram and save it as an image file. 
+TODO: Modify the file to take in parameters.
